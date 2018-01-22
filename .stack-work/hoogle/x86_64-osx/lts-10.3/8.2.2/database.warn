@@ -1,0 +1,57 @@
+Cabal:534:failed to parse: class Typeable * a => Data a
+Cabal:1634:failed to parse: }
+QuickCheck:1051:failed to parse: data a (:->) c
+base:651:failed to parse: coerce :: Coercible * a b => a -> b
+base:709:failed to parse: class (~R#) k0 k0 a b => Coercible k0 (a :: k0) (b :: k0)
+base:1504:failed to parse: (**, logBase) :: Floating a => a -> a -> a
+base:1505:failed to parse: (**, logBase) :: Floating a => a -> a -> a
+base:2441:failed to parse: data a (:~:) b
+base:2456:failed to parse: data (a :: k1) (:~~:) (b :: k2)
+base:2501:failed to parse: instance forall k2 k1 (a :: k1) (b :: k2). (a :: k1) ~~ (b :: k2) => GHC.Enum.Bounded (a Data.Type.Equality.:~~: b)
+base:2504:failed to parse: instance forall k2 k1 (a :: k1) (b :: k2). (a :: k1) ~~ (b :: k2) => GHC.Read.Read (a Data.Type.Equality.:~~: b)
+base:2505:failed to parse: instance forall k2 k1 (a :: k1) (b :: k2). (a :: k1) ~~ (b :: k2) => GHC.Enum.Enum (a Data.Type.Equality.:~~: b)
+base:2508:failed to parse: instance forall k (a :: k) (b :: k). a ~ b => a ~ b
+base:5245:failed to parse: }
+base:5258:failed to parse: }
+base:6037:failed to parse: data a (:~:) b
+base:6043:failed to parse: data (a :: k1) (:~~:) (b :: k2)
+base:6153:failed to parse: data a (:~:) b
+base:6159:failed to parse: data (a :: k1) (:~~:) (b :: k2)
+base:10795:failed to parse: type HasCallStack = (?callStack :: CallStack)
+base:15469:failed to parse: (+, -, *) :: Num a => a -> a -> a
+base:15470:failed to parse: (+, -, *) :: Num a => a -> a -> a
+base:15471:failed to parse: (+, -, *) :: Num a => a -> a -> a
+base:15553:failed to parse: (**, logBase) :: Floating a => a -> a -> a
+base:15554:failed to parse: (**, logBase) :: Floating a => a -> a -> a
+base:18141:failed to parse: type Type = *
+base:18147:failed to parse: type * = *
+base:18150:failed to parse: type ★ = *
+base:21681:failed to parse: coerce :: Coercible * a b => a -> b
+base:21739:failed to parse: class (~R#) k0 k0 a b => Coercible k0 (a :: k0) (b :: k0)
+base:21876:failed to parse: }
+call-stack:19:failed to parse: type HasCallStack = ?callStack :: CallStack
+ghc:357:failed to parse: class (Typeable * e, Show e) => Exception e
+ghc:7206:failed to parse: type LImportDecl name = Located (ImportDecl name)  When in a list this may have  - 'ApiAnnotation.AnnKeywordId' : 'ApiAnnotation.AnnSemi'
+ghc:7270:failed to parse: type LIE name = Located (IE name)  When in a list this may have  - 'ApiAnnotation.AnnKeywordId' : 'ApiAnnotation.AnnComma'
+ghc:7372:failed to parse: type AnnPayload = Serialized  The "payload" of an annotation allows recovery of its value at a given type, and can be persisted to an interface file
+ghc:16299:failed to parse: }
+ghc:24031:failed to parse: type LHsType name = Located (HsType name)  May have 'ApiAnnotation.AnnKeywordId' : 'ApiAnnotation.AnnComma' when in a list
+ghc:24195:failed to parse: type LConDeclField name = Located (ConDeclField name)  May have 'ApiAnnotation.AnnKeywordId' : 'ApiAnnotation.AnnComma' when in a list
+ghc:25945:failed to parse: type LHsDecl id = Located (HsDecl id)  When in a list this may have  - 'ApiAnnotation.AnnKeywordId' : 'ApiAnnotation.AnnSemi'
+ghc:25979:failed to parse: type HsDeriving name = Located [LHsDerivingClause name]  The optional @deriving@ clauses of a data declaration. "Clauses" is plural because one can specify multiple deriving clauses using the @-XDerivingStrategies@ language extension.  The list of 'LHsDerivingClause's corresponds to exactly what the user requested to derive, in order. If no deriving clauses were specified, the list is empty.
+ghc:26268:failed to parse: type LTyFamInstEqn name = Located (TyFamInstEqn name)  May have 'ApiAnnotation.AnnKeywordId' : 'ApiAnnotation.AnnSemi' when in a list
+ghc:26277:failed to parse: type HsTyPats name = HsImplicitBndrs name [LHsType name]  Type patterns (with kind and type bndrs) See Note [Family instance declaration binders]
+ghc:26491:failed to parse: type LConDecl name = Located (ConDecl name)  May have 'ApiAnnotation.AnnKeywordId' : 'ApiAnnotation.AnnSemi' when in a GADT constructor list
+ghc:26699:failed to parse: type LHsExpr id = Located (HsExpr id)  May have 'ApiAnnotation.AnnKeywordId' : 'ApiAnnotation.AnnComma' when in a list
+ghc-prim:224:failed to parse: type * = TYPE  'LiftedRep
+ghc-prim:227:failed to parse: type ★ = TYPE  'LiftedRep
+haskeline:173:failed to parse: class (Typeable * e, Show e) => Exception e
+hoopl:628:failed to parse: }
+hoopl:648:failed to parse: }
+hoopl:682:failed to parse: }
+hspec:73:failed to parse: }
+hspec-core:215:failed to parse: }
+hspec-expectations:172:failed to parse: type HasCallStack = ?callStack :: CallStack
+primitive:18:failed to parse: }
+template-haskell:1378:failed to parse: type Cxt = [Pred]  @(Eq a, Ord b)@
+template-haskell:3962:failed to parse: type Cxt = [Pred]  @(Eq a, Ord b)@

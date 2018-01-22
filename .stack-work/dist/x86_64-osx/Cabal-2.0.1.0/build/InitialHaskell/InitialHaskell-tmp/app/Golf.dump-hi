@@ -1,0 +1,103 @@
+
+==================== FINAL INTERFACE ====================
+2018-01-21 18:18:45.376673 UTC
+
+interface main:Golf 8022
+  interface hash: b2633e6e11207ff8dcbe9cc8d2c20faf
+  ABI hash: 8369c2473971220e553387d166ee5990
+  export-list hash: 854c0f18cb23ae81224a42173a55e78d
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: c1b8833e93eb932f92dd3a62e19e2e16
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Golf.histogram
+  Golf.localMaxima
+  Golf.skips
+module dependencies:
+package dependencies: base-4.10.1.0* ghc-prim-0.5.1.1
+                      integer-gmp-1.0.1.0
+orphans: base-4.10.1.0:GHC.Float base-4.10.1.0:GHC.Base
+family instance modules: base-4.10.1.0:Control.Applicative
+                         base-4.10.1.0:Data.Either base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Type.Equality base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats
+import  -/  base-4.10.1.0:Data.Foldable 9ed87455d68e87ff2b5b8725eae9897e
+import  -/  base-4.10.1.0:Data.List 4ab7fa2a1b87502b23af891a384f0506
+import  -/  base-4.10.1.0:GHC.Base 782fd99b5e36f3698a26179a49afca64
+import  -/  base-4.10.1.0:GHC.List e3060fbeb44ce0038e6b4dedf2dd9cf1
+import  -/  base-4.10.1.0:GHC.Num 6e1dc5d36d99a802edb39b92bb1923b8
+import  -/  base-4.10.1.0:GHC.Show 0a8ce2b5e533d1c2cfb7954e6736be45
+import  -/  base-4.10.1.0:Prelude 31945b7d0084063347fc52506d3a4020
+import  -/  ghc-prim-0.5.1.1:GHC.Classes 93e2660065dce9329577e83d76d8f0d4
+import  -/  integer-gmp-1.0.1.0:GHC.Integer.Type 5fa81108482c33b62ec3ac7464eece96
+e9706823597ebf1ccbc73eca995b09f6
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Golf.$trModule3 Golf.$trModule1) -}
+79dc7113b17878c55ea757f84af95fa0
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Golf.$trModule2) -}
+1e4060de2fdaf0f8c83bb601d5fb0258
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Golf"#) -}
+a2f3cb4c9f59d61025ad746265b02e05
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Golf.$trModule4) -}
+a4998c1b99db48b7890a1db8b6f58ead
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("main"#) -}
+a71be971f93ab5a4585956da7e915898
+  histogram :: [GHC.Integer.Type.Integer] -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: [GHC.Integer.Type.Integer]) ->
+                 GHC.Show.$fShowInteger_$cshowList
+                   (GHC.Base.build
+                      @ GHC.Integer.Type.Integer
+                      (\ @ b
+                         (c :: GHC.Integer.Type.Integer -> b -> b)[OneShot]
+                         (n :: b)[OneShot] ->
+                       GHC.Base.foldr
+                         @ GHC.Integer.Type.Integer
+                         @ b
+                         (GHC.List.filterFB
+                            @ GHC.Integer.Type.Integer
+                            @ b
+                            c
+                            Golf.histogram1)
+                         n
+                         x))
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+427acffedf8f182d4a9be5b73b912e8a
+  histogram1 :: GHC.Integer.Type.Integer -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: GHC.Integer.Type.Integer) ->
+                 case GHC.Integer.Type.ltInteger#
+                        ds
+                        Golf.histogram2 of wild { DEFAULT ->
+                 GHC.Prim.tagToEnum# @ GHC.Types.Bool wild }) -}
+85a8387f763b2a362f1243306136bc08
+  histogram2 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (10) -}
+fe1a8b68ebdc70b32c150dc864bdfd4a
+  localMaxima ::
+    [GHC.Integer.Type.Integer] -> [GHC.Integer.Type.Integer]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+bfb37bfd2f00e573e5106accebc6b1a2
+  skips :: [a] -> [[a]]
+  {- Arity: 1, Strictness: <S,1*U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
