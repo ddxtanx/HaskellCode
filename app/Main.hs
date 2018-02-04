@@ -1,6 +1,5 @@
 module Main where
-import Golf
-
+import Assignment4
 
 main :: IO ()
-main = print (skips "ABCD")
+main = run

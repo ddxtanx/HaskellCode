@@ -1,4 +1,13 @@
-.idea
 .stack-work
 out
 test
+
+.idea/libraries/mtl_2_2_1.xml
+.idea/libraries/tree_view_0_5.xml
+.idea/vcs.xml
+app/Assignment4.hi
+app/Assignment4.o
+app/Main
+app/Main.hi
+app/Main.o
+src/
