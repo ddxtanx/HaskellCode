@@ -2,697 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6857345-1d45-4f96-b659-6652bdefde77" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Assignment4.hs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Concat.hs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/RandomWork.hs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/TreeTranslator.hs" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Trees.hs" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Data/String/Strip.dyn_hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Data/String/Strip.dyn_o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Data/String/Strip.hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Data/String/Strip.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/Golf.hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/Golf.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/Hanoi.hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/Hanoi.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/Log.hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/Log.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/LogAnalysis.hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/LogAnalysis.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/Main.hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/Main.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/StringFunctions.hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/StringFunctions.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/app/Golf.dump-hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/app/Hanoi.dump-hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/app/Log.dump-hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/app/LogAnalysis.dump-hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/app/Main.dump-hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/InitialHaskell-tmp/app/StringFunctions.dump-hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/autogen/Paths_InitialHaskell.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/InitialHaskell/autogen/cabal_macros.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/autogen/Paths_InitialHaskell.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/autogen/cabal_macros.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/libHSInitialHaskell-0.1.0.0-24q2BxHp7VGDSpZnwbVt5f-ghc8.2.2.dylib" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/libHSInitialHaskell-0.1.0.0-24q2BxHp7VGDSpZnwbVt5f.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/src/Data/String/Strip.dump-hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/Data-String-Strip.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/InitialHaskell.haddock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/InitialHaskell.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/doc-index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/haddock-util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/hslogo-16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/minus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/ocean.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/plus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/src/Data.String.Strip.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/src/highlight.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/src/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/InitialHaskell/synopsis.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/package.conf.inplace/InitialHaskell-0.1.0.0-24q2BxHp7VGDSpZnwbVt5f.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/package.conf.inplace/package.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/package.conf.inplace/package.cache.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/setup-config" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/stack-build-cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/stack-cabal-mod" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/stack-config-cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/hoogle/x86_64-osx/lts-10.3/8.2.2/database.hoo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/hoogle/x86_64-osx/lts-10.3/8.2.2/database.warn" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/bin/InitialHaskell" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/bin/intero" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/Data-String-Strip.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/InitialHaskell.haddock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/InitialHaskell.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/doc-index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/haddock-util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/hslogo-16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/minus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/ocean.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/plus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/src/Data.String.Strip.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/src/highlight.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/src/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/InitialHaskell-0.1.0.0/synopsis.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-124.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-126.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-33.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-36.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-37.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-38.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-42.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-43.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-45.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-46.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-47.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-58.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-60.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-61.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-62.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-94.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-A.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-All.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-B.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-C.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-D.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-E.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-F.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-G.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-H.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-I.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-J.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-K.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-L.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-M.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-N.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-O.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-P.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-Q.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-R.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-S.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-T.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-U.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-V.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-W.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-X.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-Y.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index-Z.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/doc-index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/haddock-util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/hslogo-16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/minus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/ocean.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/plus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/all/synopsis.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Applicative.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Arrow.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Category.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Concurrent-Chan.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Concurrent-MVar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Concurrent-QSem.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Concurrent-QSemN.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Concurrent.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Exception-Base.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Exception.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Monad-Fail.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Monad-Fix.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Monad-IO-Class.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Monad-Instances.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Monad-ST-Lazy-Safe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Monad-ST-Lazy-Unsafe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Monad-ST-Lazy.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Monad-ST-Safe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Monad-ST-Strict.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Monad-ST-Unsafe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Monad-ST.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Monad-Zip.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Control-Monad.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Bifoldable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Bifunctor.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Bitraversable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Bits.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Bool.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Char.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Coerce.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Complex.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Data.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Dynamic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Either.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Eq.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Fixed.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Foldable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Function.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Functor-Classes.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Functor-Compose.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Functor-Const.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Functor-Identity.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Functor-Product.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Functor-Sum.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Functor.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-IORef.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Int.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Ix.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Kind.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-List-NonEmpty.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-List.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Maybe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Monoid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Ord.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Proxy.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Ratio.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-STRef-Lazy.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-STRef-Strict.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-STRef.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Semigroup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-String.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Traversable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Tuple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Type-Bool.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Type-Coercion.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Typeable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Unique.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Version.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Void.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Data-Word.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Debug-Trace.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-C-Error.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-C-String.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-C-Types.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-C.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-Concurrent.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-ForeignPtr-Safe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-ForeignPtr-Unsafe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-ForeignPtr.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-Marshal-Alloc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-Marshal-Array.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-Marshal-Error.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-Marshal-Pool.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-Marshal-Safe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-Marshal-Unsafe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-Marshal-Utils.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-Marshal.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-Ptr.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-Safe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-StablePtr.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign-Storable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Foreign.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Char.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Conc-IO.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Conc-Signal.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Conc-Sync.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Conc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-ConsoleHandler.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Constants.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Environment.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Event.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-ExecutionStack-Internal.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-ExecutionStack.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Exts.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Fingerprint-Type.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Fingerprint.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Foreign.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Generics.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-Buffer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-BufferedIO.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-Device.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-Encoding-CodePage.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-Encoding-Failure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-Encoding-Latin1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-Encoding-Types.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-Encoding-UTF16.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-Encoding-UTF32.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-Encoding-UTF8.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-Encoding.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-Handle-FD.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-Handle-Lock.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-IO-Handle.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Natural.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-OldList.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-OverloadedLabels.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Profiling.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-RTS-Flags.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Records.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Stack-CCS.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Stack.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-StaticPtr.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-Stats.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-TypeLits.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/GHC-TypeNats.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Numeric-Natural.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Numeric.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Prelude.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/System-CPUTime.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/System-Console-GetOpt.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/System-Environment.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/System-Exit.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/System-IO-Error.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/System-IO-Unsafe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/System-IO.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/System-Info.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/System-Mem-StableName.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/System-Mem-Weak.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/System-Mem.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/System-Posix-Types.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/System-Timeout.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Text-ParserCombinators-ReadP.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Text-ParserCombinators-ReadPrec.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Text-Printf.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Text-Read-Lex.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Text-Read.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Text-Show-Functions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Text-Show.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Type-Reflection-Unsafe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Type-Reflection.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/Unsafe-Coerce.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/base.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-124.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-126.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-33.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-36.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-37.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-38.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-42.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-43.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-45.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-46.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-47.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-58.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-60.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-61.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-62.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-92.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-94.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-A.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-All.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-B.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-C.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-D.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-E.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-F.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-G.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-H.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-I.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-J.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-K.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-L.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-M.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-N.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-O.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-P.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-Q.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-R.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-S.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-T.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-U.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-V.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-W.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-X.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-Y.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index-Z.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/doc-index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/haddock-util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/hslogo-16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/minus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/ocean.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/plus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Applicative.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Arrow.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Category.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Concurrent-Chan.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Concurrent-MVar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Concurrent-QSem.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Concurrent-QSemN.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Concurrent.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Exception-Base.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Exception.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-Fail.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-Fix.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-IO-Class.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-Instances.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-ST-Imp.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-ST-Lazy-Imp.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-ST-Lazy-Safe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-ST-Lazy-Unsafe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-ST-Lazy.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-ST-Safe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-ST-Strict.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-ST-Unsafe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-ST.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad-Zip.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Control-Monad.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Bifoldable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Bifunctor.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Bitraversable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Bits.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Bool.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Char.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Coerce.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Complex.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Data.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Dynamic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Either.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Eq.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Fixed.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Foldable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Function.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Functor-Classes.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Functor-Compose.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Functor-Const.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Functor-Product.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Functor-Sum.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Functor-Utils.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Functor.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-IORef.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Int.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Ix.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Kind.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-List-NonEmpty.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-List.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Maybe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Monoid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-OldList.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Ord.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Proxy.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Ratio.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-STRef-Lazy.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-STRef-Strict.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-STRef.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Semigroup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-String.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Traversable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Tuple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Type-Bool.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Type-Coercion.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Type-Equality.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Typeable-Internal.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Typeable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Unique.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Version.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Void.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Data-Word.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Debug-Trace.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-C-Error.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-C-String.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-C-Types.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-C.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-Concurrent.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-ForeignPtr-Imp.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-ForeignPtr-Safe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-ForeignPtr-Unsafe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-ForeignPtr.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-Marshal-Alloc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-Marshal-Array.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-Marshal-Error.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-Marshal-Pool.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-Marshal-Safe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-Marshal-Unsafe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-Marshal-Utils.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-Marshal.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-Ptr.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-Safe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-StablePtr.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign-Storable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Foreign.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Arr.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Base.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Char.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Conc-IO.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Conc-Signal.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Conc-Sync.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Conc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-ConsoleHandler.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Constants.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Desugar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Enum.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Environment.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Err.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-Arr.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-Array.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-Clock.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-Control.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-EPoll.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-IntTable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-Internal.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-KQueue.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-Manager.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-PSQ.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-Poll.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-Thread.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-TimerManager.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event-Unique.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Event.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Exception.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-ExecutionStack-Internal.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-ExecutionStack.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Exts.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Fingerprint-Type.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Fingerprint.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Float-ConversionUtils.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Float-RealFracMethods.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Foreign.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-ForeignPtr.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-GHCi.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Generics.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Buffer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-BufferedIO.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Device.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Encoding-CodePage.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Encoding-Failure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Encoding-Iconv.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Encoding-Latin1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Encoding-Types.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Encoding-UTF16.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Encoding-UTF32.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Encoding-UTF8.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Encoding.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Exception.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-FD.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Handle-FD.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Handle-Internals.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Handle-Lock.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Handle-Text.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Handle-Types.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Handle.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-IOMode.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO-Unsafe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IO.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IOArray.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-IORef.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Int.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-List.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-MVar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Natural.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Num.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-OldList.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-OverloadedLabels.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-PArr.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Pack.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Profiling.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Ptr.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-RTS-Flags.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Read.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Real.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Records.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-ST.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-STRef.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Show.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Stable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Stack-CCS.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Stack-Types.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Stack.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-StaticPtr-Internal.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-StaticPtr.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Stats.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Storable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-TopHandler.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-TypeLits.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-TypeNats.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Unicode.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Weak.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/GHC-Word.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Numeric-Natural.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Numeric.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Prelude.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-CPUTime-Posix-ClockGetTime.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-CPUTime-Posix-RUsage.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-CPUTime-Posix-Times.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-CPUTime-Unsupported.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-CPUTime-Utils.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-CPUTime.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-Console-GetOpt.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-Environment-ExecutablePath.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-Environment.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-Exit.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-IO-Error.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-IO-Unsafe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-IO.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-Info.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-Mem-StableName.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-Mem-Weak.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-Mem.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-Posix-Internals.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-Posix-Types.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/System-Timeout.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Text-ParserCombinators-ReadP.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Text-ParserCombinators-ReadPrec.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Text-Printf.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Text-Read-Lex.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Text-Read.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Text-Show-Functions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Text-Show.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Type-Reflection-Unsafe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/Unsafe-Coerce.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/src/hscolour.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/base-4.10.1.0/synopsis.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/doc-index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/GHC-CString.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/GHC-Debug.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/GHC-Magic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/GHC-Prim.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/GHC-PrimopWrappers.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/GHC-Tuple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/GHC-Types.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-126.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-42.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-43.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-45.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-47.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-60.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-61.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-62.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-A.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-All.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-B.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-C.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-D.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-E.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-F.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-G.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-I.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-K.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-L.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-M.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-N.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-O.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-P.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-Q.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-R.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-S.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-T.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-U.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-V.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-W.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-X.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index-Y.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/doc-index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/ghc-prim.haddock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/ghc-prim.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/haddock-util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/hslogo-16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/minus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/ocean.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/plus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/src/GHC-CString.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/src/GHC-Classes.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/src/GHC-Debug.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/src/GHC-IntWord64.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/src/GHC-Magic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/src/GHC-Prim.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/src/GHC-PrimopWrappers.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/src/GHC-Tuple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/src/GHC-Types.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/src/hscolour.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ghc-prim-0.5.1.1/synopsis.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/haddock-util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/hslogo-16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/GHC-Integer-GMP-Internals.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/GHC-Integer-Logarithms.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/GHC-Integer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/doc-index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/haddock-util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/hslogo-16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/integer-gmp.haddock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/integer-gmp.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/minus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/ocean.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/plus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/src/GHC-Integer-GMP-Internals.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/src/GHC-Integer-Logarithms-Internals.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/src/GHC-Integer-Logarithms.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/src/GHC-Integer-Type.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/src/GHC-Integer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/src/hscolour.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/integer-gmp-1.0.1.0/synopsis.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/intero-0.1.24/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/minus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/ocean.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/plus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/doc/synopsis.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/flag-cache/InitialHaskell-0.1.0.0-24q2BxHp7VGDSpZnwbVt5f" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/flag-cache/intero-0.1.24" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/installed-packages/intero-0.1.24" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/lib/x86_64-osx-ghc-8.2.2/InitialHaskell-0.1.0.0-24q2BxHp7VGDSpZnwbVt5f/Data/String/Strip.dyn_hi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/lib/x86_64-osx-ghc-8.2.2/InitialHaskell-0.1.0.0-24q2BxHp7VGDSpZnwbVt5f/libHSInitialHaskell-0.1.0.0-24q2BxHp7VGDSpZnwbVt5f.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/lib/x86_64-osx-ghc-8.2.2/libHSInitialHaskell-0.1.0.0-24q2BxHp7VGDSpZnwbVt5f-ghc8.2.2.dylib" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/pkgdb/InitialHaskell-0.1.0.0-24q2BxHp7VGDSpZnwbVt5f.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/pkgdb/package.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/pkgdb/package.cache.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/share/x86_64-osx-ghc-8.2.2/intero-0.1.24/elisp/haskell-simple-indent.el" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/install/x86_64-osx/lts-10.3/8.2.2/share/x86_64-osx-ghc-8.2.2/intero-0.1.24/elisp/intero.el" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/installed-cache.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.stack-work/logs/intero-0.1.24.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/InitialHaskell.cabal" afterPath="$PROJECT_DIR$/InitialHaskell.cabal" />
-      <change beforePath="$PROJECT_DIR$/InitialHaskell.iml" afterPath="$PROJECT_DIR$/InitialHaskell.iml" />
-      <change beforePath="$PROJECT_DIR$/app/Main.hs" afterPath="$PROJECT_DIR$/app/Main.hs" />
-      <change beforePath="$PROJECT_DIR$/cabal.config" afterPath="$PROJECT_DIR$/cabal.config" />
-      <change beforePath="$PROJECT_DIR$/out/production/InitialHaskell/CreditCard.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InitialHaskell/Data/String/Strip.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InitialHaskell/Golf.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InitialHaskell/Hanoi.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InitialHaskell/Log.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InitialHaskell/LogAnalysis.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InitialHaskell/Main.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InitialHaskell/StringFunctions.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InitialHaskell/error.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InitialHaskell/sample.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/InitialHaskell/Data/String/StripSpec.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/InitialHaskell/Spec.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Data/String/Strip.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/stack.yaml" afterPath="$PROJECT_DIR$/stack.yaml" />
-      <change beforePath="$PROJECT_DIR$/test/Data/String/StripSpec.hs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/Spec.hs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Assignment4.hs" afterPath="$PROJECT_DIR$/app/Assignment4.hs" />
+      <change beforePath="$PROJECT_DIR$/app/TreeTranslator.hs" afterPath="$PROJECT_DIR$/app/TreeTranslator.hs" />
     </list>
     <ignored path="$PROJECT_DIR$/.stack-work/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -705,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -728,8 +41,18 @@
       <file leaf-file-name="Assignment4.hs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Assignment4.hs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="115" column="76" lean-forward="false" selection-start-line="115" selection-start-column="76" selection-end-line="115" selection-end-column="76" />
+            <state relative-caret-position="275">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trees.hs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Trees.hs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -738,8 +61,8 @@
       <file leaf-file-name="TreeTranslator.hs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/TreeTranslator.hs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+            <state relative-caret-position="60">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -767,16 +90,6 @@
       </file>
       <file leaf-file-name="InitialHaskell.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InitialHaskell.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Setup.hs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Setup.hs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -849,11 +162,12 @@
         <option value="$PROJECT_DIR$/app/RandomWork.hs" />
         <option value="$PROJECT_DIR$/app/Main.hs" />
         <option value="$PROJECT_DIR$/cabal.config" />
-        <option value="$PROJECT_DIR$/app/TreeTranslator.hs" />
         <option value="$PROJECT_DIR$/InitialHaskell.cabal" />
         <option value="$PROJECT_DIR$/stack.yaml" />
-        <option value="$PROJECT_DIR$/app/Assignment4.hs" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/TreeTranslator.hs" />
+        <option value="$PROJECT_DIR$/app/Assignment4.hs" />
+        <option value="$PROJECT_DIR$/app/Trees.hs" />
       </list>
     </option>
   </component>
@@ -1063,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517410014931</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add various things">
+      <created>1517783920026</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1517783920026</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1104,7 +425,8 @@
     <MESSAGE value="Add .gitignore" />
     <MESSAGE value="Do stuff" />
     <MESSAGE value="Add .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .idea" />
+    <MESSAGE value="Add various things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add various things" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1324,22 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/RandomWork.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitialHaskell.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cabal.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1372,26 +678,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/TreeTranslator.hs">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InitialHaskell.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/RandomWork.hs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TreeTranslator.hs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Assignment4.hs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="115" column="76" lean-forward="false" selection-start-line="115" selection-start-column="76" selection-end-line="115" selection-end-column="76" />
+        <state relative-caret-position="275">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/Trees.hs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

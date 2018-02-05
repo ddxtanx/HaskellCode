@@ -1,7 +1,8 @@
 module Assignment4 where
 import TreeTranslator
-import Data.Tree hiding (Tree, Node, drawTree)
+import Data.Tree hiding (Tree, Node, foldTree)
 import Data.Tree.View
+import Trees
 fun1 :: [Integer] -> Integer
 fun1 [] = 1
 fun1 (x:xs)
@@ -47,70 +48,13 @@ isPrime x = 0 `notElem` divArr
   where
     divArr = [x `mod` k | k <- [2 .. x - 1]]
 
-myFoldTree :: [a] -> Tree a
-myFoldTree (x:xs) = foldr binaryInsert (Leaf) xs
-
-getHeight :: Tree a -> Integer
-getHeight (Node a _ _ _) = a
-getHeight Leaf = 0
-
-sameHeight :: Tree a -> Tree a -> Bool
-sameHeight x y = getHeight x == getHeight y
-
-almostSameHeight :: Tree a -> Tree a -> Bool
-almostSameHeight x y = abs (getHeight x - getHeight y) <= 1
-
-degreesOfBalanced :: Tree a -> (Tree a -> Tree a -> Bool) -> Bool
-degreesOfBalanced Leaf _ = True
-degreesOfBalanced (Node _ lChild _ rChild) comparator = comparator lChild rChild && subtreeComparison
-  where
-    subtreeComparison = degreesOfBalanced lChild comparator && degreesOfBalanced rChild comparator
-
-isBalanced :: Tree a -> Bool
-isBalanced tree = degreesOfBalanced tree sameHeight
-
-isAlmostBalanced :: Tree a -> Bool
-isAlmostBalanced tree = degreesOfBalanced tree almostSameHeight
-
-hasLeaf :: Tree a -> Bool
-hasLeaf (Node a Leaf _ _) = True
-hasLeaf (Node a _ _ Leaf) = True
-hasLeaf _ = False
-
-isLeaf :: Tree a -> Bool
-isLeaf Leaf = True
-isLeaf _ = False
-
-replaceLeaf :: Tree a -> a -> Tree a
-replaceLeaf (Node 0 Leaf nodeVal Leaf) val = Node 1 (Node 0 Leaf val Leaf) nodeVal Leaf
-replaceLeaf node@(Node height lChild nodeVal rChild) val
-  | isLeaf lChild = Node height (Node 0 Leaf val Leaf) nodeVal rChild
-  | isLeaf rChild = Node height lChild nodeVal (Node 0 Leaf val Leaf)
-  | otherwise = node
-
-binaryInsert :: a -> Tree a -> Tree a
-binaryInsert value Leaf = Node 0 Leaf value Leaf
-binaryInsert value node@(Node height lChild nodeVal rChild)
-  | hasLeaf node = replaceLeaf node value
-  | not (isBalanced lChild) = Node newHeightL insertedLeft nodeVal rChild
-  | not (isBalanced rChild) = Node newHeightR lChild nodeVal insertedRight
-  | isBalanced node = Node newHeightL insertedLeft nodeVal rChild
-  | otherwise =
-    if getHeight lChild < getHeight rChild
-      then Node newHeightL insertedLeft nodeVal rChild
-      else Node newHeightR lChild nodeVal insertedRight
-  where
-    insertedLeft = binaryInsert value lChild
-    insertedRight = binaryInsert value rChild
-    newHeightL = max (getHeight insertedLeft) (getHeight rChild) + 1
-    newHeightR = max (getHeight insertedRight) (getHeight lChild) + 1
-
-testTree =
-  Node
-    3
-    (Node 2 (Node 0 Leaf 'F' Leaf) 'I' (Node 1 (Node 0 Leaf 'B' Leaf) 'C' Leaf))
-    'J'
-    (Node 2 (Node 1 (Node 0 Leaf 'A' Leaf) 'G' Leaf) 'H' (Node 1 (Node 0 Leaf 'D' Leaf) 'E' Leaf))
 
 run :: IO()
-run = drawTree (myTreeToLibTree (myFoldTree (intArrayToStringArray [1 .. 100])))
+run = do
+          let tree = generateNElementTree 100000
+          print tree
+          print (isComplete tree)
+          print (validHeight tree)
+    {--}
+--(foldTree [1..13])
+--(isComplete (Node 3 (Node 1 (Node 1 Leaf 0 Leaf) 0 Leaf) 0 (Node 1 Leaf 0 Leaf)))
